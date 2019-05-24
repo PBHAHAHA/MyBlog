@@ -1,0 +1,148 @@
+
+.pageOne{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: url('http://www.maplejoyous.cn/assets/images/30+wallpaper/bg-cover18.jpg');
+    background-size: 100% 100%;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    font-size:28px;
+    margin-top: 15%;
+}
+@media (min-width: 768px) { 
+    .title{font-size:50px;margin-top: 10%;font-weight: 900}
+    .pageOne{height: 100vh;}
+    .container{
+        width: 1200px !important
+    }
+} 
+.pageOne-cont{
+    color: rgb(7, 129, 243);
+    font-size: 33px;
+    text-align: center
+}
+.pageOne-cont i{
+    margin:0 10px;
+    cursor: pointer;
+}
+.pageOne-cont i:hover{
+    color: #f00;
+}
+.pt-Box{
+    position: relative;
+}
+/* pageTwo */
+.pt-box{
+    height: 450px;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.5s;
+    background-color: #fff;
+    box-shadow:1px 1px 30px 1px rgba(0, 0, 0, .2)
+}
+/* .pt-box:hover{
+    border: 1px solid #fff
+} */
+.pt-box-img{
+    display: block;
+    height: 260px;
+    /* width: 100%; */
+    /* background: url('../assets/cont1.jpg');
+    background-size: 100% 100%; */
+}
+.pt-box-img img{
+    width: 100%;
+    height: 100%
+}
+.pt-box-top{
+    position: relative;
+    border-bottom: 1px solid #909090
+}
+.pt-box-top span{
+    position: absolute;
+    bottom: 5px;
+    border-radius: 8px;
+    left: 10px;
+    padding: 0 10px;
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff
+}
+.pt-box-bottom{
+    position: relative;
+    height: 190px;
+    padding: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.pt-time{
+    position: absolute;
+    bottom: 5px;
+}
+.search{
+    width: 360px;
+    height: 40px;
+    margin: 20px auto 10px;
+}
+@media (min-width: 768px){
+    .search{
+        width: 360px;
+        height: 40px;
+        margin: 50px auto 30px;
+    }
+}
+.search-cont{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    text-indent: 1em
+}
+.search-icon{
+    float: right;
+    height: 40px;
+    width: 60px;
+    background-color: #f00;
+    cursor: pointer;
+}
+/* pageThree */
+.newConts{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.pt-box-bottom h4{
+    font-size: 26px;
+}
+/* part */
+.pt-box .pt-box-bottom .part{
+    display: block;
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+/* page3 */
+.pageThree{
+    background:#000;
+    color:#fff;
+    padding-bottom: 20px;
+}
+
+/* footer */
+.footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 14px
+}
+/* h1 .h1{
+    font-size: 12px
+} */
